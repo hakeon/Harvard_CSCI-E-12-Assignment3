@@ -1,0 +1,29 @@
+html {
+	font-family: cursive;
+	color:  rgba(18,19,20,0.6);
+	text-shadow: 2px 2px 2px #f9d4d4;
+	text-align: justify;
+	background-color: #f7f2cb;
+}
+
+#venues {
+	border: 1px solid black;
+}
+
+fieldset {
+	border: double;
+	border-color: rgba(250,213,213,0.43);
+	background-color: rgba(139,163,139,0.15);
+}
+
+h1 {
+	text-shadow: 3px 3px 3px /*#f90556*/rgba(250,213,213,0.43);
+}
+
+.radio, .checkbox {
+	list-style: none;
+}
+
+input[type="text"], input[type="submit"], input[type="select"] {
+	background-color: rgba(250,213,213,0.43);
+}

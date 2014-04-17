@@ -1,0 +1,17 @@
+html {
+	font-family: sans-serif;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover, a:active {
+	text-decoration: none;
+	color: #bebebe;
+}
+
+#bio {
+	font-size: .75em;
+}

@@ -1,0 +1,26 @@
+html {
+	background-color: #e2e2e2;
+	font-family: sans-serif;
+}
+
+#subtitle {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+#gallery {
+	height: 100%;
+	width: 100%;
+	background-color: #e2e2e2;
+	}
+
+#thumb {
+	padding: 0px;
+	margin-right: 00%;
+	margin-left: 7%;
+	margin-top: 3%;
+}
+
+.credits {
+	font-size: .25em;
+}
