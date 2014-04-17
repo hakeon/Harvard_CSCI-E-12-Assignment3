@@ -3,11 +3,11 @@
 <head>
 	<title>Date Picker</title>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-	<link href="css/smoothness/jquery-ui-1.10.4.custom.css" rel="stylesheet">
-	<link href="css/datepickerstyle.css" rel="stylesheet">
-	<script src="js/jquery-1.11.0.min.js"></script>
-	<script src="js/jquery-ui-1.10.4.custom.min.js"></script>
-	<script>
+	<link href="css/smoothness/jquery-ui-1.10.4.custom.css" rel="stylesheet"/>
+	<link href="css/datepickerstyle.css" rel="stylesheet"/>
+	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.10.4.custom.min.js"></script>
+	<script type="text/javascript">
 	$(document).ready(function() { 	
 		$("input.date").datepicker();
 	});
@@ -18,7 +18,7 @@
 	<h1 id="title">Costa Rican Air Travel Plans</h1>
 	<h2 id="subtitle">Flight Finder</h2>
 	<form action="http://morpheus.dce.harvard.edu/cgi-bin/echo.cgi">
-		<fieldset id="fieldset">
+		<fieldset class="fieldset">
 			<legend>Airports</legend>
 			<div>Departs:<select id="departure" name="Airport for Departure">
 				<optgroup label="West Coast">
@@ -32,12 +32,14 @@
 					<option>Tambor</option> 
 					<option>Tamarindo</option>
 					<option>Quepos</option>
+				</optgroup>	
 				<optgroup label="Central">
 					<option>San Jose</option>
 					<option>Arenal</option>
+				</optgroup>	
 				<optgroup label="East Coast">
 					<option>Tortuguero</option>
-			</select></div>
+				</optgroup></select></div>
 			<div>Arrives:<select id="arrival" name="Airport of Arrival">
 				<optgroup label="West Coast">
 					<option>Drake Bay</option>
@@ -50,21 +52,23 @@
 					<option>Tambor</option> 
 					<option>Tamarindo</option>
 					<option>Quepos</option>
+				</optgroup>	
 				<optgroup label="Central">
 					<option>San Jose</option>
 					<option>Arenal</option>
+				</optgroup>	
 				<optgroup label="East Coast">
 					<option>Tortuguero</option>					
-			</select></div>
+				</optgroup></select></div>
 		</fieldset>
-		<fieldset id="fieldset">
+		<fieldset class="fieldset">
 			<legend>Dates</legend>
 			<div><label>Depart</label>
-				<input class="date" type="text" name="Date of Departure" id="depart"</div>
+				<input class="date" type="text" name="Date of Departure" id="depart"/></div>
 			<div><label>Return</label>
-				<input class="date" type="text" name="Date of Return" id="return"</div>
+				<input class="date" type="text" name="Date of Return" id="return"/></div>
 		</fieldset>
-		<input type="submit" value="Schedule Flight"/>
+		<p><input type="submit" value="Schedule Flight"/></p>
 	</form>
 </body>
 </html>
